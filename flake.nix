@@ -2,7 +2,7 @@
   description = "Simple nixos configuration to help you get off your feet (nixos unstable";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
   outputs = {nixpkgs, ...}: let
